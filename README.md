@@ -1,27 +1,23 @@
-# JAVA-24
+## 🚀 Java 24 Features - Overview  
 
-**Performance & Memory Management Improvements in Java 24**
-**Garbage Collector (GC)**
-GC is an automatic memory management system that removes unused objects from memory, preventing memory leaks and optimizing performance.
+Java 24 brings exciting improvements in performance, memory management, and developer productivity. Here’s a quick overview of the key features:  
 
-**GC Pause Time**
-GC pause time refers to the brief interruption of an application while the garbage collector cleans memory.
+### 🔹 **Performance & Memory Management**  
+- **Generational Shenandoah GC (Experimental)** – Optimizes memory usage by dividing objects into young and old generations, reducing CPU overhead.  
+- **Ahead-of-Time (AOT) Class Loading** – Improves startup time by preloading classes before execution.  
 
-**Shenandoah GC**
-Shenandoah treats all objects the same and scans the entire heap during every collection cycle.
+### 🔹 **Stream API Enhancements**  
+- **Stream Gatherers (Preview)** – Enables flexible, stateful, and grouped data processing within streams.  
 
-This leads to low pause times but can cause high CPU usage.
+### 🔹 **Language Improvements**  
+- **Implicitly Declared Classes & Instance Main Method (Preview)** – Allows simpler class and main method declarations for quick experimentation.  
+- **Constructor Flexibility** – Provides more options for constructor definitions, making object creation smoother.  
 
+### 🔹 **Cryptography & Security**  
+- **Stronger Encryption Support** – Enhancements in security algorithms to meet modern cryptographic standards.  
 
-**Java 24: Generational Shenandoah (Experimental)**
-Generational Shenandoah improves memory management by dividing objects into two generations, reducing CPU usage and improving efficiency.
+### 🔹 **General Enhancements**  
+- **Better Memory Management** – Reduces GC pause times and improves application responsiveness.  
+- **Optimized Class Loading & Linking** – Faster startup and reduced runtime overhead.  
 
-How it Works
-**Young Generation objects** - Contains newly created objects.
-**Old Generation objects** - Objects are collected frequently since most are short-lived.
-
-
-Stores long-lived objects that survived multiple GC cycles.
-Collected less frequently to optimize performance.
-This approach improves efficiency and reduces latency, making Java 24's memory management faster and more optimized. 🚀
-
+🔹 **Java 24 continues to improve performance, efficiency, and developer experience.** 🚀
